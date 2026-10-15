@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Seguros Ltda</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consectetur vitae facilis impedit illum hic, praesentium non, nobis commodi reprehenderit atque quibusdam id eum eos quaerat placeat, distinctio sint sed.</p>
+    </header>
+    <section>
+        <div>
+            Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            <p>
+            Seguro:
+            <input type="radio" name="radcob" id="parc" checked>
+            <label for="parc">Parcial</label>
+            <input type="radio" name="radcob" id="tot">
+            <label for="tot">Total</label>
+            </p>
+            Idade:
+            <input type="number" name="ida" id="ida">
+            <input type="button" value="Simular" onclick="simular()">
+
+        </div>
+        <div id="res" >
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
