@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulos</title>
+    <link rel="stylesheet" href="triangulos.css">
+</head>
+<body>
+    <header>
+        <h1>Triângulos</h1>
+        <p>
+            Triângulos são polígonos, ou seja figuras geométricas
+            fechadas. Eles possuem três lados e podem ser clafificados
+            de diferentes formas. Para que um triângulo com lados quaisquer
+            exista é necessária que uma condição seja satisfeita: 
+            <strong>
+            nenhum dos lados 
+            pode ser maior que a soma da medida dos outros dois lados. 
+            </strong> 
+            <p>
+            <strong>Triângulo equilátero</strong>
+            </p>
+            O triângulo exóceles é aquele que possue a medida dos três lados iguais.
+            <p><strong>Triângulo isóceles</strong></p>
+            O triângulo isóceles possue dois lados iguais.
+            <p><strong>Triângulo escaleno</strong></p>
+            O triângulo escaleno possue todos os lados diferentes.
+            <p>Digite abaixo três medidas e confira se essas medidas poderiam formar um triângulo.
+            Veja também qual tipo de triângulo seria formado.</p>
+        </p>
+    </header>
+    <section>
+        Lado A:
+        <input type="number" name="a" id="a">
+        Lado B:
+        <input type="number" name="b" id="b">
+        Lado C:
+        <input type="number" name="c" id="c">
+        <input type="button" value="Verificar" onclick="verificar()">
+        <p></p>
+        <div id="res">
+
+        </div>
+
+    </section>
+    <footer>
+        <p>Triângulos</p>
+    </footer>
+    <script src="triangulos.js"></script>
+</body>
+</html>

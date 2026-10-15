@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="seguros.css">
+</head>
+<body>
+    <header>
+        <h1>Seguros Ltda</h1>
+        Um seguro que cabe no seu bolso! Trabalhamos com dois
+        tipos de apólices: cobertura parcial e cobertura total.
+        Escolha a que mais lhe atende no momento e não fique sem seguro.
+        Temos também alguns descontos, preencha os dados abaixo e simule sua
+        cobertura!
+        <p></p>
+        <strong>Beneficios</strong>
+        <p>- Proteção do patrimônio: O seguro protege o valor investido no veículo, que pode ser considerável. 
+            <p>- Cobertura para acidentes com terceiros: O seguro cobre os danos materiais e corporais causados a outras pessoas em caso de acidente. </p>
+            <p>- Ressarcimento em caso de roubo ou furto: O seguro protege contra roubos e furtos, que são comuns.</p> 
+            <p>- Cobertura para incêndio: O seguro protege o veículo de incêndios, que podem ocorrer mesmo com os devidos cuidados. </p>
+            <p></p>- Reparos ou indenizações por fenômenos da natureza: O seguro protege o veículo de danos causados por eventos naturais. 
+            <p></p>- Assistência 24 horas: O seguro pode oferecer assistência 24 horas para pane mecânica, pane seca, troca de pneus, entre outros. 
+            <p></p>- Tranquilidade financeira: O seguro ajuda a controlar os gastos, pois o valor é incluído no orçamento. 
+            <p></p>- Descontos em estacionamentos: Alguns seguros oferecem descontos em estacionamentos. 
+            <p></p>- Economia no cotidiano: Alguns seguros oferecem benefícios como preços competitivos em produtos e serviços. 
+            </p>
+        
+
+    </header>
+    <section>
+        <strong>Faça sua simulação aqui</strong>
+        
+        <p>Sexo:
+            <input type="radio" name="radsex" id="masc" checked >
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>Cobertura:
+            <input type="radio" name="radcob" id="parc" checked>
+            <label for="parc">Parcial</label>
+            <input type="radio" name="radcob" id="tot">
+            <label for="tot">Total</label>
+
+        </p>
+        <p>Idade:
+            <input type="number" name="idade" id="idade">
+            <input type="button" value="Simular" onclick="simular()">
+        </p>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p></p>Seguros Ltda
+    </footer>
+    <script src="seguros.js"></script>
+    
+</body>
+</html>

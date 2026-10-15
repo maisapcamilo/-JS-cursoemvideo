@@ -1,0 +1,35 @@
+body {
+    background: white;
+    font: normal 15pt Times;
+}
+
+header {
+    color: rgba(0, 0, 0, 0.568);
+    text-align: auto;
+}
+
+section {
+    background: rgb(131, 205, 228);
+    text-align: center;
+    width: 1400px;
+    border-radius: 4px;
+    
+    color: rgba(0, 0, 0, 0.568);
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+}
+
+section#sec {
+    background: rgba(104, 150, 161, 0.753);
+    width: 620px;
+    margin: justify;
+    padding: 15px;
+    border-radius: 1px;
+    box-shadow: 0px 0px;
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.568);
+    font-style: italic;
+    text-align: center;
+}

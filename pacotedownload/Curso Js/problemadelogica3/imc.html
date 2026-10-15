@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalcImc</title>
+    <link rel="stylesheet" href="imc.css">
+</head>
+<body>
+    <header>
+        <h1>Calculando o IMC</h1>
+        <p>
+            IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização
+        Mundial de Saúde para calcular o peso ideal de cada pessoa.
+        O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao 
+        quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9 mas pode variar de acordo com sexo.
+        Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo.
+        </p>
+     
+    </header>
+    <section>
+        <div id="divs">
+            
+
+        </div>
+       <section id="sec">
+            <div>
+                <p>
+                    Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                
+                </p>
+           
+                Peso (Kg):
+                <input type="number" name="peso" id="peso">
+                Altura (m):
+                <input type="number" name="alt" id="alt">
+                <input type="button" value="Calcular" onclick="calcular()">
+
+            </div>
+            <div id="res">
+
+            </div>
+       </section>
+       -------
+    </section>
+  
+    <footer>
+        <p>CalculodoImc</p>
+    </footer>
+    <header>
+        <strong>Gordura na barriga</strong>
+        <p></p>
+        Quando a gordura se acumula entre os órgãos do abdômen e aumenta a barriga, é perigosa,
+        sempre merece ser combatida. Este tipo de gordura está por trás de muitos males fatais associados
+        à obesidade. A medida da circunferência abdominal reﬂete de forma indireta o conteúdo de gordura 
+        entre os órgãos da região. A Organização Mundial da Saúde estabelece que a medida igual ou superior 
+        a 94 cm em homens e 80 cm em mulheres, já aumenta o risco, especialmente, para doenças ligadas ao coração. 
+        Eliminar gordura abdominal por meio da redução da ingestão calórica e prática de atividades aeróbicas, como caminhada,
+        bicicleta, corrida, pode trazer muitos benefícios, ao reduzir os riscos de doenças. Mudando hábitos, dá para viver mais e melhor.
+    </header>
+    <script src="imc.js"></script>    
+</body>
+</html>
