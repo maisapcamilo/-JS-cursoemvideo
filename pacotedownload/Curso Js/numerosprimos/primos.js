@@ -4,6 +4,7 @@ let valores = []
 
 function verificar() {
     res.innerHTML = ''
+    valores = []
     if (nam.value.length == 0) {
         window.alert('Digite um número!')
     } else {
