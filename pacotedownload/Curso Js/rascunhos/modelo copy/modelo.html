@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Triângulos</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Triângulos</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis eum tempora vel repellat quaerat possimus minima tempore quasi aperiam! Excepturi exercitationem ullam repellat hic rerum, eligendi impedit assumenda dolore repellendus?</p>
     </header>
     <section>
         <div>
-            Testando
+            <p>Digite três números abaixo e verifique se podem ser lados de um triângulos, verifique ainda se o triângulo formado é isóceles, escaleno ou equilátero.</p>
+            Lado A: 
+            <input type="number" name="a" id="a">
+            Lado B:
+            <input type="number" name="b" id="b">
+            Lado C:
+            <input type="number" name="c" id="c">
+            <input type="button" value="Verificar" onclick="verificar()">
 
         </div>
-        <div>
-            Olá
+        <div id="res" >
+           
         </div>
     </section>
     <footer>
