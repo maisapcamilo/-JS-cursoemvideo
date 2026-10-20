@@ -14,15 +14,15 @@ function verificar() {
         let C = Number(ladC.value)
         if (A < B + C && B < A + C && C < A + B) {
             if (A == B && A == C) {
-                res.innerHTML = `O triângulo de lados ${A}, ${B}e ${C} é equilátero!`
+                res.innerHTML = `<p>O triângulo de lados ${A}, ${B} e ${C} é <strong>equilátero</strong>!</p>`
             } else if (A == B || B == C || C == A) {
-                res.innerHTML = `O triângulo de lados ${A}, ${B}e ${C} é isóceles!`
+                res.innerHTML = `<p>O triângulo de lados ${A}, ${B} e ${C} é <strong>isóceles</strong>!</p>`
             } else {
-                res.innerHTML = `O triângulo de lados ${A}, ${B}e ${C} é escaleno!`
+                res.innerHTML = `<p>O triângulo de lados ${A}, ${B} e ${C} é <strong>escaleno</strong>!</p>`
             }
 
         } else {
-            res.innerHTML = `Não é possível formar um triângulo com lados ${A}, ${B} e ${C}`
+            res.innerHTML = `<p>Não é possível formar um triângulo com lados ${A}, ${B} e ${C}</p>`
         }
     }
 }

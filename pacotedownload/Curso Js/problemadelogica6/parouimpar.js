@@ -29,9 +29,7 @@ for (let c = 0 ; c < tot*2; c++) {
     }
 }
 for (let d = 0; d < somas.length; d++) {
-    if (d%2 == 0 && somas[d]%2 == 0) {
-        pontosA.push(somas[d])
-    } else if (d%2 !== 0 && somas[d]%2 !== 0) {
+    if (somas[d]%2 == 0) {
         pontosA.push(somas[d])
     } else {
         pontosB.push(somas[d])
