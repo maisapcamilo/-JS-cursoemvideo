@@ -36,7 +36,7 @@ document.write(`<p>O resultado do par ou impar foi [${somas}] </p>`)
 document.write(`<p>Primeiro jogador [${primeiro}]</p> `)
 document.write(`<p>Segundo jogador [${segundo}] </p>`)
 document.write(`<p>[${pontosA}] são os pontos do primeiro</p>`)
-document.write(`<p>[${pontosB}] são os pontos do seegundo </p>`)
+document.write(`<p>[${pontosB}] são os pontos do segundo </p>`)
 if (pontosA.length > pontosB.length) {
     document.write('O primeiro jogador venceu!')
 }else {
