@@ -9,7 +9,7 @@ function calcular () {
     res.innerHTML = `${nu.value}! = 1`   
 } else {
     res.innerHTML = ''
-    res.innerHTML = `${nu.value}! = `
+    res.innerHTML = `${fat}! = `
     for(let c = 1; c < Number(nu.value); c++) {
         fat = fat*(Number(nu.value) - c)
         res.innerHTML += `${(Number(nu.value) + 1) - c} x`
