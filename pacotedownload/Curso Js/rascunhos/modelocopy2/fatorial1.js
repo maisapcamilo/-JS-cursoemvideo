@@ -1,8 +1,7 @@
-let nu = document.getElementById('num')
-let res = document.getElementById('res')
-let fat = Number(nu.value)
-
 function calcular () {
+    let nu = document.getElementById('num')
+    let res = document.getElementById('res')
+    let fat = Number(nu.value)
     if (nu.value.length == 0 || nu.value < 0) {
     window.alert('Digite um valor válido!')
 } else if (Number(nu.value) == 0) {
