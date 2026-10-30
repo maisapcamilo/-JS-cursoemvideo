@@ -1,0 +1,23 @@
+body {
+    background: green;
+    font: normal 15pt Times;
+}
+
+header {
+    color: rgb(182, 245, 182);
+    text-align: center;
+}
+
+section {
+    background: purple;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+}
+
+div {
+    color: rgb(192, 235, 192);
+    text-align: center;
+}
