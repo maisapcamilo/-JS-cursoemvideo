@@ -15,7 +15,7 @@ function calcular() {
         img.setAttribute('src', 'mudas1.png')
         res.style.textAlign = 'center'
         res.appendChild(img)
-        res.innerHTML = `<p>ÁRERA DO CANTEIRO: ${area.toFixed(2)} m²</p>`
+        res.innerHTML += `<p>ÁREA DO CANTEIRO: ${area.toFixed(2)} m²</p>`
         res.innerHTML += `<p>COMPRIMENTO DO CANTEIRO: ${comp.toFixed(2)} m</p>`
         res.innerHTML += `<p>ROLOS DE ARAME (20m): ${rol.toFixed(0)}</p>`
     }
