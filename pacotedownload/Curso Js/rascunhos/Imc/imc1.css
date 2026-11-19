@@ -1,0 +1,22 @@
+body {
+    background: white;
+    font: normal 15pt Times;
+}
+
+header {
+    color: black;
+    text-align: auto;
+
+}
+
+section {
+    background: blue;
+    text-align: center;
+    width: 1400px;
+    border-radius: 4px;
+    color: black;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+
+}
+
