@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +8,25 @@
 </head>
 <body>
     <header>
+        <h1>Calculando o IMC</h1>
 
     </header>
     <section>
         <div>
+            <p>
+            Sexo:
+            <input type="radio" name="radsex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+            </p>
+            <p>
+            Peso (Kg):
+            <input type="number" name="peso" id="peso">
+            Altura (m):
+            <input type="number" name="alt" id="alt">
+            <input type="button" value="Calcular" onclick="calcular()">
+            </p>
 
 
         </div>
