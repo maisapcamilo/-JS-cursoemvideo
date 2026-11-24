@@ -1,0 +1,30 @@
+let peso = document.getElementById('peso')
+let alt = document.getElementById('alt')
+let res = document.getElementById('res')
+
+function calcular() {
+    
+    if(peso.value.length == 0 || alt.value.length == 0) {
+        window.alert('[ERRO] Verifique os dados e tente novamente!')
+
+    } else {
+        var P = Number(peso.value)
+        var A = Number(alt.value)
+        var imc =  P/(A*A)
+        var fsex = document.getElementsByName('radsex')
+        var genero = ''
+
+        if(fsex[0].checked) {
+            genero = 'Homem'
+            if (imc < 20.7) {
+                res.innerHTML = `<p>${genero} com IMC = ${imc.toFixed(2)}. Você está ABAIXO do peso! Procure orientação médica.</p>`
+            }
+            if (imc >= 20.7 && imc < 26.4) {
+                res.innerHTML =  `<p>${genero} com IMC = ${imc.toFixed(2)}. Você está com peso NORMAL </p>`
+            }
+            if (imc >= 26.4 && imc < 27.8) {
+                res.innerHTML = `<p> ${genero} com IMC = ${imc.toFixed(2)}. Você está pouco ACIMA do peso! </p>`
+            }
+        }
+    }
+}
